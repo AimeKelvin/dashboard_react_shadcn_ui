@@ -1,12 +1,8 @@
+import { TableDemo } from '@/components/TableDemo';
 import React from 'react';
-import { SettingsDialog } from "@/components/settings-dialog"
 
 const Page = () => {
-  return (
-    <div className="flex h-svh items-center justify-center">
-      <SettingsDialog />
-    </div>
-  )
+  return <div className="p-10"><TableDemo /></div>;
 };
 
 export default Page;
